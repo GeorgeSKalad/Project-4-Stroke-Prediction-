@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Project-4-Stroke-Prediction-# README - Stroke Prediction Model
+=======
+# Project-4-Stroke-Prediction
+>>>>>>> bc172e23993d3c13cd7ba324915c36cbb75ebd7b
 
 ## Introduction
 Stroke is a leading cause of death globally, responsible for approximately 11% of total deaths, according to the World Health Organization (WHO). Early detection and prediction of stroke risk can play a crucial role in preventing strokes and improving healthcare outcomes. This project aims to develop a machine learning model to predict whether a patient is likely to have a stroke based on various input parameters, such as gender, age, medical history, and lifestyle factors.
@@ -30,6 +34,7 @@ The dataset used for this project contains information about patients and their 
 ## Data Preprocessing
 To prepare the data for model training, we performed several preprocessing steps:
 
+<<<<<<< HEAD
 1. **Feature Selection:** We dropped the non-beneficial ID columns, 'EIN' and 'NAME,' from the dataset.
 
 2. **Categorical Data Encoding:** We used one-hot encoding (pd.get_dummies) to convert categorical data into numeric format, making it suitable for machine learning.
@@ -37,3 +42,5 @@ To prepare the data for model training, we performed several preprocessing steps
 3. **Binning:** We performed binning on the "APPLICATION_TYPE" and "CLASSIFICATION" columns to reduce the number of unique values and improve model performance.
 
 4. **Data Split:** We
+=======
+>>>>>>> bc172e23993d3c13cd7ba324915c36cbb75ebd7b
