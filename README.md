@@ -28,5 +28,29 @@ The dataset used for this project contains information about patients and their 
 *Note: "Unknown" in smoking_status means that the information is unavailable for this patient.
 
 ## Data Preprocessing
-To prepare the data for model training, we performed several preprocessing steps:
+Before training the stroke prediction model, we carried out several data preprocessing steps to ensure the data is suitable for machine learning:
+
+Data Cleaning: We checked for missing values in the dataset and handled them appropriately. Missing values in the bmi column were imputed with the mean BMI value, and missing values in the smoking_status column were marked as "Unknown."
+
+Encoding Categorical Variables: We converted categorical variables like gender, ever_married, work_type, Residence_type, and smoking_status into numerical values using techniques like one-hot encoding or label encoding.
+
+Data Splitting: We split the dataset into training and testing sets to evaluate the model's performance. Typically, we used a 80-20 or 70-30 split, with the larger portion for training.
+
+## Model Development
+We implemented a machine learning model to predict stroke occurrences based on the preprocessed data. Various algorithms were tested, including 
+- Logistic Regression: This algorithm was used in the initial part of your code to create a logistic regression model. Logistic regression is a binary classification algorithm that is commonly used for predicting binary outcomes, such as whether or not a patient had a stroke (1 or 0 in this case).
+
+- Artificial Neural Network (ANN): An ANN was created and trained using TensorFlow/Keras. This deep learning algorithm consists of multiple layers of interconnected nodes (neurons) and is capable of learning complex patterns in data. In this case, it was used for binary classification, similar to logistic regression, to predict whether a patient had a stroke.
+
+These two algorithms were tested and evaluated using the provided healthcare data to determine their performance in predicting strokes.
+
+## Resources 
+- Online (Stackoverflow ,Blackbox.io,Kaggle and Chat Gpt)
+- Course materials 
+- 
+## Great, thank you for providing the list of contributors. Here's the updated analysis report with the contributor names:
+
+**Analysis Report: Stroke Prediction Models**
+
+**Contributors:** Alexandra De Roos, Ryan Williams, and George Kalad
 
