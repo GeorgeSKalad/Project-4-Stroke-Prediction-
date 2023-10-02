@@ -46,7 +46,47 @@ These two algorithms were tested and evaluated using the provided healthcare dat
 
 ## Visualization 
  We separated the visualization code from the machine learning code to enhance the organization and maintainability of our project. This separation allowed us to keep the core machine learning logic focused in one file, making it easier to manage and update, while visualizations are organized separately for clarity, readability, and potential reuse in various project-related contexts.
- 
+
+** ##   Based on the visualizations generated from the project, we can draw the following key findings ##**
+
+1. **Age and Stroke Incidence:** 
+The histogram of age distribution with stroke incidence reveals a clear trend. As age increases,
+ the probability of experiencing a stroke also increases. This underscores the importance of age-specific health monitoring and interventions to prevent strokes.
+
+2. **Hypertension and Stroke Incidence:** 
+Individuals with hypertension (high blood pressure) are at a higher risk of stroke, 
+as indicated by the bar chart. This highlights the critical role of managing blood pressure as a preventive measure against strokes.
+
+3. **Age Distribution by Gender and Stroke Incidence:** 
+Both males and females exhibit a similar trend in age distribution concerning stroke incidence. 
+Older age groups are more susceptible to strokes, emphasizing the age-related risk factor.
+
+4. **Marital Status, Gender, and Stroke Incidence:** 
+The bar chart comparing stroke incidents among married and unmarried individuals by gender suggests that married males have the highest stroke incidence. 
+This observation may warrant further investigation into lifestyle factors and stress associated with marital status.
+
+5. **Smoking Status and Stroke Incidence:** 
+The count plot for smoking status indicates that individuals who formerly smoked or are current smokers have a notable incidence of strokes. 
+This reinforces the well-established link between smoking and an increased risk of stroke.
+
+6. **BMI and Stroke Incidence:**
+ The BMI histogram reveals a higher probability of strokes in individuals with a BMI between 25 and 35, corresponding to the overweight and obese categories. Maintaining a healthy BMI is crucial in stroke prevention.
+
+7. **Avg Glucose Level and Stroke Incidence:**
+ The histogram for average glucose level data indicates that individuals with higher glucose levels have a greater probability of experiencing a stroke. Managing glucose levels is essential,
+  especially for those with diabetes or at risk of diabetes.
+
+8. **Work Type and Stroke Incidence:**
+ The count plot for different work types shows variations in stroke incidence across different occupations.
+  Private sector employees and self-employed individuals appear to have a higher incidence of stroke.
+
+9. **Correlation Heatmap:** 
+The correlation heatmap provides insights into the relationships between different variables.
+ Age, hypertension, and average glucose level exhibit positive correlations with stroke probability.
+  These correlations suggest potential risk factors that healthcare providers should monitor and manage to reduce the likelihood of strokes.
+
+These findings collectively contribute to our understanding of stroke risk factors and provide valuable insights for healthcare practitioners and policymakers to develop targeted stroke prevention strategies.
+
 ## Resources 
 - Online (Stackoverflow ,Blackbox.io,Kaggle and Chat Gpt)
 - Course materials 
