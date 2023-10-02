@@ -45,7 +45,7 @@ We implemented a machine learning model to predict stroke occurrences based on t
 These two algorithms were tested and evaluated using the provided healthcare data to determine their performance in predicting strokes.
 
 ## Visualization 
- We separated the visualization code from the machine learning code to enhance the organization and maintainability of our project. This separation allows us to keep the core machine learning logic focused in one file, making it easier to manage and update, while visualizations are organized separately for clarity, readability, and potential reuse in various project-related contexts.
+ We separated the visualization code from the machine learning code to enhance the organization and maintainability of our project. This separation allowed us to keep the core machine learning logic focused in one file, making it easier to manage and update, while visualizations are organized separately for clarity, readability, and potential reuse in various project-related contexts.
  
 ## Resources 
 - Online (Stackoverflow ,Blackbox.io,Kaggle and Chat Gpt)
