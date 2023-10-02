@@ -1,4 +1,4 @@
-### Project-4-Stroke-Prediction
+# Project-4-Stroke-Prediction-# README - Stroke Prediction Model
 
 ## Introduction
 Stroke is a leading cause of death globally, responsible for approximately 11% of total deaths, according to the World Health Organization (WHO). Early detection and prediction of stroke risk can play a crucial role in preventing strokes and improving healthcare outcomes. This project aims to develop a machine learning model to predict whether a patient is likely to have a stroke based on various input parameters, such as gender, age, medical history, and lifestyle factors.
@@ -44,10 +44,14 @@ We implemented a machine learning model to predict stroke occurrences based on t
 
 These two algorithms were tested and evaluated using the provided healthcare data to determine their performance in predicting strokes.
 
+## Visualization 
+ We separated the visualization code from the machine learning code to enhance the organization and maintainability of our project. This separation allows us to keep the core machine learning logic focused in one file, making it easier to manage and update, while visualizations are organized separately for clarity, readability, and potential reuse in various project-related contexts.
+ 
 ## Resources 
 - Online (Stackoverflow ,Blackbox.io,Kaggle and Chat Gpt)
 - Course materials 
-- 
+- https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+
 
 **Contributors:** 
 -  Alexandra De Roos, Ryan Williams, and George Kalad
