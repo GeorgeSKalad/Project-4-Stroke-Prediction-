@@ -38,7 +38,7 @@ Data Splitting: We split the dataset into training and testing sets to evaluate 
 
 ## Model Development
 We implemented a machine learning model to predict stroke occurrences based on the preprocessed data. Various algorithms were tested, including 
-- Logistic Regression: This algorithm was used in the initial part of your code to create a logistic regression model. Logistic regression is a binary classification algorithm that is commonly used for predicting binary outcomes, such as whether or not a patient had a stroke (1 or 0 in this case).
+- Logistic Regression: This algorithm was used in the initial part of the code to create a logistic regression model. Logistic regression is a binary classification algorithm that is commonly used for predicting binary outcomes, such as whether or not a patient had a stroke (1 or 0 in this case).
 
 - Artificial Neural Network (ANN): An ANN was created and trained using TensorFlow/Keras. This deep learning algorithm consists of multiple layers of interconnected nodes (neurons) and is capable of learning complex patterns in data. In this case, it was used for binary classification, similar to logistic regression, to predict whether a patient had a stroke.
 
